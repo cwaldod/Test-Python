@@ -22,7 +22,7 @@ for _ in range(5):
    #This writes to the leaving chilled water setpoint
     #client.write_register(address = 0x000, value=440,unit=1)
     #client.write_register(address = 0x061, value=1, unit=1)
-    data = read.registers
+    data = read.registers#Dave comments 
    # data2 = read2.registers
     #data3 = read3.registers
     print(connection)
