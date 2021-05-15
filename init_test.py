@@ -15,11 +15,11 @@ class Noon():
 
 full = Noon(23,17,"red")
 full2 = Noon(12.5, 89,"green")
-anus = Noon("This","Is","Hole")
+andy = Noon("This","Is","Hole")
 frank = Noon("fish",1,2)
 full.moon()
 full2.moon()
-anus.moon()
+andy.moon()
 full.dave()
 print(full.a)
 print(frank.b)
