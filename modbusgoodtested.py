@@ -8,8 +8,7 @@ from pymodbus.transaction import ModbusRtuFramer
 #unit= the slave unit this request is targeting
 #address= the starting address to read from
 for _ in range(5): 
-#This is a comment
-# This is a test after installing git  
+ 
     client = ModbusClient(method = 'rtu', port='com2',timout=1,stopbits=1, parity='N', baudrate= 19200)
 #Connect to the serial modbus server
     connection = client.connect()
