@@ -8,8 +8,7 @@ from pymodbus.transaction import ModbusRtuFramer
 #unit= the slave unit this request is targeting
 #address= the starting address to read from
 for _ in range(5): 
-#This is a comment
-# This is a test after installing git  
+ 
     client = ModbusClient(method = 'rtu', port='com2',timout=1,stopbits=1, parity='N', baudrate= 19200)
 #Connect to the serial modbus server
     connection = client.connect()
@@ -23,7 +22,7 @@ for _ in range(5):
    #This writes to the leaving chilled water setpoint
     #client.write_register(address = 0x000, value=440,unit=1)
     #client.write_register(address = 0x061, value=1, unit=1)
-    data = read.registers
+    data = read.registers#Dave comments This 
    # data2 = read2.registers
     #data3 = read3.registers
     print(connection)
